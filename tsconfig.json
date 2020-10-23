@@ -3,6 +3,7 @@
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"strict": true,
+		"jsx": "react",
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
 		"noImplicitReturns": true,
@@ -12,7 +13,8 @@
 		"noErrorTruncation": true
 	},
 	"include": [
-		"**/*.ts"
+		"**/*.ts",
+		"**/*.tsx"
 	],
 	"exclude": [
 		"node_modules"

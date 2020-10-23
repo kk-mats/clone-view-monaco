@@ -1,5 +1,5 @@
 {
-  "name": "docker_web_app",
+  "name": "clone-view-monaco",
   "version": "1.0.0",
   "author": "kk-mats",
   "main": "src/index.tsx",
