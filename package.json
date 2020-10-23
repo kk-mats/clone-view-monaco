@@ -1,0 +1,29 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "author": "kk-mats",
+  "main": "src/index.tsx",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-monaco-editor": "^0.40.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "monaco-editor-webpack-plugin": "^2.0.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.6",
+    "typescript": "^4.0.3",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
