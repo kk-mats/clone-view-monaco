@@ -18,6 +18,8 @@ import { Range, editor } from "monaco-editor";
 import { Fragment, ClonePair } from "./types";
 import { code } from "./code.ts";
 
+const {Smooth} = editor.ScrollType;
+
 const fragments: Record<string, Fragment> = {
 	f1: { begin: 1, end: 5 },
 	f2: { begin: 3, end: 10 },
@@ -110,6 +112,7 @@ const View: React.FunctionComponent<ViewProps> = React.memo(
 						]
 					);
 					next[selected] = nextSelectedId;
+					editor.revealLinesInCenterIfOutsideViewport(f.begin, f.end, Smooth);
 				}
 
 				if (oldSelected !== null) {
