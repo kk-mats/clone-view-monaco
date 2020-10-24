@@ -41,6 +41,7 @@ const clonePairs: Record<string, ClonePair> = {
 const options: Readonly<MonacoEditorProps["options"]> = {
 	readOnly: true,
 	automaticLayout: true,
+	smoothScrolling: true
 };
 
 type ViewProps = {
